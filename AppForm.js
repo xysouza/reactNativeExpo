@@ -5,7 +5,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import Database from './Database';
 
 export default function AppForm({ navigation }) {
-    const [descicao, setDescricao] = useState('');
+    const [descricao, setDescricao] = useState('');
     const [quantidade, setQuantidade] = useState('');
 
     function handleDescriptionChange(descricao) { setDescricao(descricao); }
